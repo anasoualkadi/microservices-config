@@ -1,4 +1,3 @@
-customer:
-  param:
-    x: 10
-    y: 20
+spring:
+  datasource:
+    url: jdbc:h2:mem:customers-db
