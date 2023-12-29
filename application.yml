@@ -5,7 +5,7 @@ spring:
     # Activation de l'enregistrement du service dans Eureka Server
   cloud:
     discovery:
-      enabled: false
+      enabled: true
 # Configuration des endpoints Actuator pour être exposés
 management:
   endpoints:

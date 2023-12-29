@@ -1,4 +1,13 @@
-global:
-  params:
-    p1: 44
-    p2: 32
+#  mvn clean install -Dspring.profiles.active=dev
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  cloud:
+    discovery:
+      enabled: true
+#  l'URL du serveur Eureka auquel l'application doit s'enregistrer. Service "discovery" dans Docker Compose
+eureka:
+  client:
+    service-url:
+      defaultZone: http://discovery:8761/eureka/
