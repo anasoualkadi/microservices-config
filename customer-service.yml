@@ -3,4 +3,4 @@ spring:
     url: jdbc:h2:mem:customers-db
 
 app:
-  message: "Hello from Config Server"
+  message: "Hello from Config Server update 1"
