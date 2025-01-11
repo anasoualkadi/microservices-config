@@ -2,5 +2,6 @@ spring:
   datasource:
     url: jdbc:h2:mem:customers-db
 
+#utile pour tester le rechargement de la configuration dynamique
 app:
   message: "Hello from Config Server update 1"
